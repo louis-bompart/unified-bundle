@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "esbuild index.js --bundle --minify --tree-shaking=true --outfile=build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
